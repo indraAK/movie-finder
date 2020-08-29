@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Finder</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar navbar-header navbar-expand-lg navbar-light bg-light">
+            <div class="container container-nav">
+                <div class="logo">
+                    <a href="index.html"><img class="logo-img" alt="logo"></a>
+                </div>
+                <div class="search" id="search-toggle">
+                    <i class="fas fw fa-search" id="icon"></i>
+                </div>
+                <div class="form-container">
+                    <form class="form" id="form">
+                        <div class="form-group m-0">
+                            <input type="text" class="form-input" id="keyword" placeholder="Search Movie..">
+                            <button class="btn btn-primary form-btn"><i class="fas fw fa-search"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <h1 id="heading">Trending Movies</h1>
+
+        <div class="container mt-5">
+            <div class="row movie-container"></div>
+        </div>
+
+        <!-- Modal Detail Movie -->
+        <div class="modal fade" id="modalDetail" tabindex="-1" role="dialog" aria-labelledby="modalDetailLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalDetailLabel">Detail Movie</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" id="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer-app></footer-app>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
