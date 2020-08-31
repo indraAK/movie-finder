@@ -8,5 +8,5 @@ Built in with :
   <li>Javascript (Vanilla JS)</li>
 </ul>
 
-
-<a href="https://idnmovie.netlify.app/" target="_blank">Live Preview</a>
+# Live Preview
+You can check out my live project [here](https://idnmovie.netlify.app/)
